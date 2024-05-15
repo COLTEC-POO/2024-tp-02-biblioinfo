@@ -3,7 +3,7 @@ public class Main {
         System.out.println("============================================");
         Livro l1 = new Livro("a culpa e de info", "samuel", "fe em deus", 2007);
         System.out.println("Livros cadastrados:");
-        // sabah al khair
+        
         l1.imprimir();
         
         Livro l2 = new Livro("O Auto da Compadecida","Ariano suassuna","Nova Fronteira",1955);
@@ -17,6 +17,7 @@ public class Main {
         //Livro l10 = new Livro("","","",);
         //Livro l11 = new Livro("","","",);
         //Livro l12 = new Livro("","","",);
+
 
     
     }
