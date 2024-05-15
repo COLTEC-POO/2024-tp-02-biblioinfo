@@ -1,3 +1,4 @@
+import java.util.Date;
 public class Usuario{
     String nome,cpf;
     Date data_nascimento;
