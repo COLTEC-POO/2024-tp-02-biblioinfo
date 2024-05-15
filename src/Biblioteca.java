@@ -17,7 +17,7 @@ public class Biblioteca {
 
     }
 
-    void realizarEmprestimo(){
+    void realizarEmprestimor(){
 
     }
 
