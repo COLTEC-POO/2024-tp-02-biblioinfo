@@ -1,3 +1,3 @@
-public class Aluno {
-    private String escola;
+public class Aluno extends Usuario{
+    String escola;
 }
