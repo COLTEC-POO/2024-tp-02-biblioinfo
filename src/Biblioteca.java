@@ -6,39 +6,52 @@ public class Biblioteca {
     private String nome;
 
     //Métodos
-    static void main(String[] args){} //método por onde iniciará a execução do programa
+    static void main(String[] args) {
+    } //método por onde iniciará a execução do programa
 
-    void cadastrarLivro(){} //deverá cadastrar um novo livro na biblioteca
+    void cadastrarLivro() {
 
-    void cadastrarUsuario(){} //deverá cadastrar um novo usuário na biblioteca
+    } //deverá cadastrar um novo livro na biblioteca
 
-    void realizarEmprestimo(){} // deverá inicializar o processo de empréstimo
+    void cadastrarUsuario() {
 
-    void realizarDevolucao(){} // deverá iniciar o processo de devolução
+    } //deverá cadastrar um novo usuário na biblioteca
 
-    void imprimirLivros(){} //deverá imprimir todos os livros disponíveis na biblioteca
+    void realizarEmprestimo() {
+
+    } // deverá inicializar o processo de empréstimo
+
+    void realizarDevolucao() {
+
+    } // deverá iniciar o processo de devolução
+
+    void imprimirLivros() {
+
+    } //deverá imprimir todos os livros disponíveis na biblioteca
 
 
     public void setUsuarios(Usuario[] usuarios) {
         this.usuarios = usuarios;
     }
 
-    public void setLivros(Livro[] livros){
+    public void setLivros(Livro[] livros) {
         this.livros = livros;
     }
 
-    public void setNome(String nome){
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public Usuario getUsuarios(){
+    public Usuario[] getUsuarios() {
         return usuarios;
     }
 
-    public void getLivros(){}
+    public Livro[] getLivros() {
         return livros;
     }
 
-    public String getNome(){
+    public String getNome() {
         return nome;
     }
+}
+
