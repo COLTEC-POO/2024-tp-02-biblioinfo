@@ -31,26 +31,32 @@ public class Biblioteca {
 
 
     public void setUsuarios(Usuario[] usuarios) {
+
         this.usuarios = usuarios;
     }
 
     public void setLivros(Livro[] livros) {
+
         this.livros = livros;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public Usuario[] getUsuarios() {
+
         return usuarios;
     }
 
     public Livro[] getLivros() {
+
         return livros;
     }
 
     public String getNome() {
+
         return nome;
     }
 }

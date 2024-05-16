@@ -3,6 +3,7 @@ public class Livro {
     String autor;
     String editora;
     int ano_publicacao;
+
     boolean alugado = false;
 
     Livro(String titulo,String autor,String editora,int ano_publicacao){
@@ -13,7 +14,16 @@ public class Livro {
         this.ano_publicacao = ano_publicacao;
     }
 
-    void imprimir(){
+    public String getTitulo(){
+        return titulo;
+    }
+
+    public int getAno_publicacao(){
+        return ano_publicacao;
+    }
+
+
+    public void imprimir(){
         System.out.println("=============================================");
         System.out.println("Titulo do livro:" + titulo);
         System.out.println("Autor do livro:" + autor);
