@@ -3,6 +3,7 @@ public class Livro {
     String autor;
     String editora;
     int ano_publicacao;
+    boolean alugado = false;
 
     Livro(String titulo,String autor,String editora,int ano_publicacao){
 
@@ -21,6 +22,7 @@ public class Livro {
         System.out.println("============================================");
     }
 
+    
 }
 
 

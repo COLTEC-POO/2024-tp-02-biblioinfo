@@ -17,9 +17,18 @@ public class Main {
         //Livro l10 = new Livro("","","",);
         //Livro l11 = new Livro("","","",);
         //Livro l12 = new Livro("","","",);
-
-
-    
+        Usuario p1 = new Aluno("Montandon", "1234567890", "14/09/1977", 0,"Colégio Técnico da Universidade Federeal de Minas Gerais");
+        p1.pegarLivro(l8);
+        p1.pegarLivro(l9);
+        p1.pegarLivro(l2);
+        p1.pegarLivro(l1);
+        p1.pegarLivro(l6);
+        boolean a = p1.pegarLivro(l5);
+        System.out.println(a);
+        boolean b = p1.devolverLivro(l9);
+        System.out.println(b);
+        boolean c = p1.pegarLivro(l5);
+        System.out.println(c);
     }
 
 }
