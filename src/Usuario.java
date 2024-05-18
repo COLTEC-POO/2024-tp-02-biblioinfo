@@ -1,7 +1,7 @@
 import java.text.SimpleDateFormat;
 import java.util.Date;
 public class Usuario {
-    private String nome;
+    String nome;
     String cpf;
     Date data_nascimento;
     int id;
@@ -15,6 +15,7 @@ public class Usuario {
     }
 
     public String getNome() {
+
         return nome;
     }
     //
