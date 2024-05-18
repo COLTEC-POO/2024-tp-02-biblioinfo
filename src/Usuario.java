@@ -6,7 +6,6 @@ public class Usuario {
     int id;
     private int maxQtdLivAlug; // Máxima Quantidade de Livrods Alugados
     Livro[] livrosAlugados = new Livro[0];
-    Livro [] totalLivros = new Livro[30];
     SimpleDateFormat formatoData = new SimpleDateFormat("dd/MM/yyyy"); // Para converter String para Date
 
     // Encapsulamento
@@ -83,6 +82,4 @@ public class Usuario {
         }
         System.out.println("=====================================================================");
     }
-
-
 }
