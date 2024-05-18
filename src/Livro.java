@@ -1,10 +1,10 @@
 public class Livro {
-    String titulo;
+    private String titulo;
     String autor;
     String editora;
-    int ano_publicacao;
-
+    private int ano_publicacao;
     boolean alugado = false;
+
 
     Livro(String titulo,String autor,String editora,int ano_publicacao){
 
@@ -12,16 +12,26 @@ public class Livro {
         this.autor = autor;
         this.editora = editora;
         this.ano_publicacao = ano_publicacao;
+
     }
 
     public String getTitulo(){
+
         return titulo;
     }
 
     public int getAno_publicacao(){
+
         return ano_publicacao;
     }
 
+    public String getAutor(){
+        return autor;
+    }
+
+    public String getEditora(){
+        return editora;
+    }
 
     public void imprimir(){
         System.out.println("=============================================");
@@ -32,7 +42,7 @@ public class Livro {
         System.out.println("============================================");
     }
 
-    
+
 }
 
 
