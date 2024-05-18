@@ -1,7 +1,8 @@
 import java.text.SimpleDateFormat;
 import java.util.Date;
 public class Usuario {
-    String nome, cpf;
+    private String nome;
+    String cpf;
     Date data_nascimento;
     int id;
     private int maxQtdLivAlug; // Máxima Quantidade de Livrods Alugados
@@ -10,15 +11,14 @@ public class Usuario {
 
     // Encapsulamento
     void setMaxQtdLivAlu(int qtd) {
-
         this.maxQtdLivAlug = qtd;
     }
 
-    private String getNome() {
+    public String getNome() {
         return nome;
     }
-
     //
+    
     boolean devolverLivro(Livro livro) {
         for (Livro livroAlu : this.livrosAlugados) {
             if (livro == livroAlu) {
