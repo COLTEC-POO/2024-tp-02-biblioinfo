@@ -32,12 +32,13 @@ public class Usuario {
                 Livro[] new_livrosAlugados = new Livro[qt - 1];
                 int j = 0;
                 for (int i = 0; i < qt; i++) {
-                    if (!(this.livrosAlugados[i].alugado)) {
-                        i++;
+                    if (!this.livrosAlugados[i].alugado) {
+                        continue;
                     }
                     new_livrosAlugados[j] = this.livrosAlugados[i];
                     j++;
                 }
+
                 this.livrosAlugados = new_livrosAlugados;
                 return true;
             }
