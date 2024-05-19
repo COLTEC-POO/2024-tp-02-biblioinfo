@@ -118,7 +118,7 @@ public class Biblioteca {
     }
 
     //Método por onde iniciará a execução do programa
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         Biblioteca biblioteca = new Biblioteca();
         int opcao;
